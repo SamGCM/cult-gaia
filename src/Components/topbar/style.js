@@ -11,6 +11,10 @@ export const Nav = styled.section`
     position: fixed;
     font-size: 1.5rem;
 
+    h1{
+        align-self: center;
+    }
+
     ul{
         list-style: none;
         display: flex;

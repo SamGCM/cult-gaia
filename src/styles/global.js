@@ -29,6 +29,7 @@ export default createGlobalStyle`
 
     html{
         font-size: 62.5%;
+        font-family: 'Lato', sans-serif;
     }
 
     body{

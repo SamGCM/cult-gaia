@@ -30,12 +30,32 @@ export default createGlobalStyle`
     html{
         font-size: 62.5%;
         font-family: 'Lato', sans-serif;
+
     }
 
     body{
         font-size: 2rem;
         font-family: 'Lato', sans-serif;
+        
+        &::-webkit-scrollbar{
+            width: 10px;
+        }
+
+        &::-webkit-scrollbar-track{
+            background: transparent;
+        }
+
+        &::-webkit-scrollbar-thumb {
+        background-color: #E5DCD7;   
+        border-radius: 20px;
+        border: 1px solid #e0e0e0;
+        
     }
+    }
+
+    
+
+    
 
     h1{
         font-family: '';
@@ -46,5 +66,9 @@ export default createGlobalStyle`
     a{
         text-decoration: none;
         font-weight: 800;
+    }
+
+    ul{
+        list-style: none;
     }
 `

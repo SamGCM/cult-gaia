@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 
 import Topbar from '../../Components/topbar/index.js'
+import Footer from '../../Components/footer/index.js'
 
 import img from './women.jpg'
 import bag from './bag.jpg'
@@ -15,6 +16,8 @@ import img2 from './img-2.jpg'
 import img3 from './img-3.jpg'
 import img4 from './img-4.jpg'
 import img5 from './img-5.jpg'
+
+import JasminLarian from './designer-cult-gaia.png'
 
 import * as s from './style.js'
 
@@ -78,9 +81,19 @@ export default class Home extends Component{
                         <img id='img4' className='imgHover' src={img4} alt=' '  />
                         <img id='img1' className='imgHover' src={img1} alt=' ' />
                     </div>
-                    
                 </s.sectionImg>
-                
+                <s.aboutDesigner>
+                    <p>"When you look at all the most beautiful things in the world and in nature,<br/>
+                        it is perfect in its imperfection. It's soul - perfection is sterile nad cold.<br/>
+                        I also believe timeless pieces are artful but obvious in their restraint "<br/>
+                        <br/>
+                        Jasmin Larian
+                    </p>
+                    <div>
+                        <img src={JasminLarian} alt=' ' />
+                    </div>
+                </s.aboutDesigner>
+                <Footer/>
             </div>
         )
     }

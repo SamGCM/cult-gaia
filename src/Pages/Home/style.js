@@ -63,7 +63,7 @@ export const section = styled.section`
         display: flex;
         align-items: center;
         position: relative;
-        left: 14.5vw;
+        left: 15vw;
         margin: 80px 0 80px 0;
         h3{
             font-weight: normal;
@@ -79,9 +79,9 @@ export const section = styled.section`
         max-width: 100vw;
         width: 80%;
         position: relative;
-        left: 14.5vw;
+        left: 15vw;
         display: grid;
-        grid-template-columns: 250px 80px 400px 80px 200px;
+        grid-template-columns: 250px 50px 400px 50px 200px;
         grid-template-rows: 50px 200px 30px 120px 50px;
 
         
@@ -146,6 +146,9 @@ export const section = styled.section`
 
         a{
             text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: normal;
+            align-self: flex-end;
             color: black;
             justify-self: right;
             grid-column-start: 5;
@@ -189,7 +192,7 @@ export const sectionImg = styled.section`
         display: flex;
         align-items: center;
         position: relative;
-        left: 14.5vw;
+        left: 15vw;
         margin: 80px 0 80px 0;
         h3{
             font-weight: normal;
@@ -203,12 +206,13 @@ export const sectionImg = styled.section`
     }
     #container__imgs{
         left: 11.5vw;
+        width: fit-content;
         display: flex;
         align-items: center;
         position: relative;
         .imgHover{
             position: relative;
-            filter: grayscale(0.5);
+            filter: grayscale(0.4);
             &:hover{
                 transform: scale(1.2,1.2);
                 z-index: 3;
@@ -223,7 +227,7 @@ export const sectionImg = styled.section`
         }
         #img2{
             width: 25rem;
-            z-index: 2;
+            
             bottom: 2rem;
             left: 3rem;
         }
@@ -250,5 +254,35 @@ export const sectionImg = styled.section`
     span{
         font-size: 1.5rem;
         font-weight: bold;
+    }
+`
+export const aboutDesigner = styled.section`
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 100px 0 50px 0;
+
+    p{
+        font-size: 2rem;
+        position: relative;
+        left: 14.5vw;
+        text-align: right;
+        z-index: 2;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        overflow: hidden;
+        height: 23rem;
+        width: 23rem;
+        position: relative;
+        right: 25.3vw;
+        top: -1rem;
+        
+        img{
+            width: 39rem;
+        }
     }
 `

@@ -11,8 +11,10 @@ export const Nav = styled.section`
     position: fixed;
     font-size: 1.5rem;
 
-    h1{
-        align-self: center;
+    img{
+        width: 15rem;
+        position: relative;
+        right: 5rem;
     }
 
     ul{

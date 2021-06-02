@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import * as S from './style.js'
 
+import logo from '../../Pages/Home/logo.png'
+
 export default class Topbar extends Component{
     render( ) {
         return(
             <div>
                 <S.Nav>
-                    <h1 className='topbar__logo'>cult gaia</h1>
+                    <img src={logo} alt=' ' />
                     <ul className='topbar__nav'>
                         <li className='nav__item'>
                             <Link to=''>SHOP</Link>

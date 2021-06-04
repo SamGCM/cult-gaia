@@ -465,14 +465,14 @@ export const phrase = styled.section`
         div{
         font-size: 2rem;
         background: #E5DCD7;
-        height: 30vw;
+        height: 40vw;
         margin: 100px 0 100px 0;
             img{
                 position: absolute;
                 width: 29vw;
                 transform: rotateZ(-35deg);
                 right: 10%;
-                top: 10vw;
+                top: 20vw;
             }
         }
     }
@@ -481,14 +481,14 @@ export const phrase = styled.section`
         div{
         font-size: 2.5rem;
         background: #E5DCD7;
-        height: 30vw;
+        height: 35vw;
         margin: 100px 0 100px 0;
             img{
                 position: absolute;
                 width: 29vw;
                 transform: rotateZ(-35deg);
                 right: 10%;
-                top: 10vw;
+                top: 15vw;
             }
         }
     }

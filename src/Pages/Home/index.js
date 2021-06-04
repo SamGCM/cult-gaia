@@ -83,8 +83,8 @@ export default class Home extends Component{
                     </div>
                 </s.sectionImg>
                 <s.aboutDesigner>
-                    <p>"When you look at all the most beautiful things in the world and in nature,<br/>
-                        it is perfect in its imperfection. It's soul - perfection is sterile nad cold.<br/>
+                    <p>"When you look at all the most beautiful things in the world and in nature,
+                        it is perfect in its imperfection. It's soul - perfection is sterile nad cold.
                         I also believe timeless pieces are artful but obvious in their restraint "<br/>
                         <br/>
                         Jasmin Larian

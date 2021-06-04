@@ -199,76 +199,7 @@ export const section = styled.section`
         }
     }
 
-    @media (max-width: 575.98px){
-        .container__title{
-            margin: 100px 0 20px 0;
-            left: 1rem;
-            .title__stick{
-                width: 20vw;
-            }
-        }
-        .container__grid{
-            left:1rem;
-            grid-template-columns: 35vw 5vw 56vw;
-            grid-template-rows: 50px 25vw 30px 25vw 30px 25vw 13vw;
-
-            #imgBag{
-                width: 35vw;
-            }
-            
-            #imgEarring{
-                width: 35vw;
-                align-self: flex-start;
-                margin-left: 0;
-            }
-            
-            div{
-                grid-column-start: 3;
-                grid-row-start: 1;
-                grid-row-end: 7;
-                #imgDress{
-                width: 56vw;
-                }
-                figcaption{
-                    width: 56vw;
-                    span{
-                        #caption__name-item{
-                            text-align: center;
-                            font-size: 1.2rem;
-                            font-weight: bold;
-                        }
-
-                        #caption__price{
-                            text-align: center;
-                            font-size: 1.2rem;
-                            font-weight: bold;
-                            padding: 10px;
-                        }
-                    }
-                }
-            }
-            #imgShoes{
-            width: 35vw;
-            grid-column-start: 1;
-            grid-row-start: 6;
-            }
-            a{
-                text-decoration: none;
-                font-size: 1.5rem;
-                font-weight: normal;
-                align-self: flex-end;
-                color: black;
-                justify-self: right;
-                grid-column-start: 3;
-                grid-row-start: 7;
-            }
-            .grid-item{
-                &:hover{
-                    transform: none;
-                }
-            }
-        }
-    }
+    
 
     @media (min-width: 576px) and (max-width: 767.98px) {
         .container__title{
@@ -426,15 +357,86 @@ export const section = styled.section`
                 font-weight: normal;
             }
         }
+        .container__grid{
+            max-width: 100vw;
+            width: 80%;
+            position: relative;
+            left: 6vw;
+            display: grid;
+            grid-template-columns: 250px 50px 400px 50px 200px;
+            grid-template-rows: 50px 200px 30px 120px 50px;
+        }
     }
-    .container__grid{
-        max-width: 100vw;
-        width: 80%;
-        position: relative;
-        left: 6vw;
-        display: grid;
-        grid-template-columns: 250px 50px 400px 50px 200px;
-        grid-template-rows: 50px 200px 30px 120px 50px;
+    
+    @media (max-width: 575.98px){
+        .container__title{
+            margin: 100px 0 20px 0;
+            left: 1rem;
+            .title__stick{
+                width: 20vw;
+            }
+        }
+        .container__grid{
+            left:1rem;
+            grid-template-columns: 35vw 5vw 56vw;
+            grid-template-rows: 50px 25vw 30px 25vw 30px 25vw 13vw;
+
+            #imgBag{
+                width: 35vw;
+            }
+            
+            #imgEarring{
+                width: 35vw;
+                align-self: flex-start;
+                margin-left: 0;
+            }
+            
+            div{
+                grid-column-start: 3;
+                grid-row-start: 1;
+                grid-row-end: 7;
+                #imgDress{
+                width: 56vw;
+                }
+                figcaption{
+                    width: 56vw;
+                    span{
+                        #caption__name-item{
+                            text-align: center;
+                            font-size: 1.2rem;
+                            font-weight: bold;
+                        }
+
+                        #caption__price{
+                            text-align: center;
+                            font-size: 1.2rem;
+                            font-weight: bold;
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+            #imgShoes{
+            width: 35vw;
+            grid-column-start: 1;
+            grid-row-start: 6;
+            }
+            a{
+                text-decoration: none;
+                font-size: 1.5rem;
+                font-weight: normal;
+                align-self: flex-end;
+                color: black;
+                justify-self: right;
+                grid-column-start: 3;
+                grid-row-start: 7;
+            }
+            .grid-item{
+                &:hover{
+                    transform: none;
+                }
+            }
+        }
     }
 `
 export const phrase = styled.section`

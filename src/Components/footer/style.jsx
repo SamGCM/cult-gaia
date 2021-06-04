@@ -63,4 +63,43 @@ export const container = styled.section`
         }
     }
 
+    @media (max-width: 575.98px){
+        div{
+            img{
+                width: 30vw;
+            }
+
+            p{
+                font-size: 0.5rem;
+            }
+
+            h5{
+                font-size: 1rem;
+            }
+
+            li{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 767.98px){
+        div{
+            img{
+                width: 30vw;
+            }
+
+            p{
+                font-size: 0.7rem;
+            }
+
+            h5{
+                font-size: 1.5rem;
+            }
+
+            li{
+                font-size: 1.5rem;
+            }
+        }
+    }
 `

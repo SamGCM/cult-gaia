@@ -19,7 +19,7 @@ import img5 from './img-5.jpg'
 
 import JasminLarian from './designer-cult-gaia.png'
 
-import * as s from './style.js'
+import * as s from './style.jsx'
 
 export default class Home extends Component{
     render( ) {

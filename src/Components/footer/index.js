@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import logo from '../../Pages/Home/logo.png'
 
-import * as s from './style.js'
+import * as s from './style.jsx'
 
 export default class Footer extends Component{
     render( ) {

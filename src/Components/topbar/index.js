@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import * as S from './style.jsx'
 
-import logo from '../../Pages/Home/logo.png'
+import logo from '../../Pages/Home/images/logo.png'
 
 export default class Topbar extends Component{
     render( ) {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-import logo from '../../Pages/Home/logo.png'
+import logo from '../../Pages/Home/images/logo.png'
 
 import * as s from './style.jsx'
 

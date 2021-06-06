@@ -794,6 +794,7 @@ export const aboutDesigner = styled.section`
         left: 14.5vw;
         text-align: right;
         z-index: 2;
+        width: 70rem;
     }
     div{
         display: flex;
@@ -804,7 +805,7 @@ export const aboutDesigner = styled.section`
         height: 23rem;
         width: 23rem;
         position: relative;
-        right: 25.2vw;
+        right: 20.2vw;
         top: -1rem;
         
         img{

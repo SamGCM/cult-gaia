@@ -805,7 +805,7 @@ export const aboutDesigner = styled.section`
         height: 23rem;
         width: 23rem;
         position: relative;
-        right: 20.2vw;
+        right: 15.2vw;
         top: -1rem;
         
         img{
